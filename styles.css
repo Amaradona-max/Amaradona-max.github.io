@@ -1,0 +1,66 @@
+/* Impostazioni generali */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #add8e6; /* Azzurro */
+  color: #333;
+}
+
+/* Contenitore centrale */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sezione di aggiunta nuova task */
+#add-task-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#add-task-section input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Titoli delle sezioni */
+section h2 {
+  margin-bottom: 10px;
+  color: #005577;
+}
+
+/* Liste di attività */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+li {
+  padding: 10px 15px;
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: #d0e8f0;
+}
+
+/* Attività completate (opzionale) */
+#done-list li {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #e0ffe0;
+}

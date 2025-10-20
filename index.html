@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sezione 1: Aggiunta nuova task -->
+    <section id="add-task-section">
+      <h1>Gestione To-Do List</h1>
+      <input
+        type="text"
+        id="new-task-input"
+        placeholder="Scrivi una nuova attività e premi Invio"
+        autofocus
+      />
+    </section>
+
+    <!-- Sezione 2: Attività da fare -->
+    <section id="todo-section">
+      <h2>Da Fare</h2>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <!-- Sezione 3: Attività fatte -->
+    <section id="done-section">
+      <h2>Fatto</h2>
+      <ul id="done-list"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
